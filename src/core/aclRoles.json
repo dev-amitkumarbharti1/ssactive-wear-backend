@@ -1,0 +1,22 @@
+[
+  {
+    "group": "supplier",
+    "permissions": [
+      {
+        "resource": "catalog/*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "merchant",
+    "permissions": [
+      {
+        "resource": "products/*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  }
+]

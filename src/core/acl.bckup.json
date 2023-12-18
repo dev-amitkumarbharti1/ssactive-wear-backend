@@ -1,0 +1,38 @@
+[
+    {
+        "group": "admin",
+        "permissions": [
+            {
+                "resource": "*",
+                "methods": "*",
+                "action": "allow"
+            }
+        ]
+    },
+    {
+        "group": "supplier",
+        "permissions": [
+            {
+                "resource": "user/*",
+                "methods": "*",
+                "action": "allow"
+            }
+        ]
+    },
+    {
+        "group": "merchant",
+        "permissions": [
+            {
+                "resource": "user/*",
+                "methods": "*",
+                "action": "deny"
+            },
+            {
+                "resource": "orders/*",
+                "methods": "*",
+                "action": "allow"
+            }
+        ]
+    }
+]
+  
