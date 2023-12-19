@@ -7,7 +7,7 @@ export const sendMail = async (email: string, subject: string, message: string) 
         secure: true,
         auth: {
             user: 'amitkumarbharti@cedcommerce.com',
-            pass: 'lfsuidjlhpbnlcbt',
+            pass: 'test',
         },
     });
 
